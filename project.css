@@ -255,6 +255,7 @@ font-size: 12px;
     display: flex;
     flex-wrap: wrap;
     margin: 0px 165px;
+    gap: 130px;
 }
 .vf{
     display: flex;
