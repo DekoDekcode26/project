@@ -152,7 +152,7 @@ font-size: 12px;
     flex-wrap: nowrap;
     margin: 0 165px;
 }
-.image{
+.image34{
     background-image: url(https://preview.colorlib.com/theme/vacation/images/about.jpg.webp);
     width: 540px;
     height: 538px;
@@ -254,8 +254,9 @@ font-size: 12px;
 .con{
     display: flex;
     flex-wrap: wrap;
-    margin: 0px 165px;
     gap: 130px;
+    width: 100%;
+    padding: 0 165px;
 }
 .vf{
     display: flex;
@@ -274,4 +275,123 @@ font-size: 12px;
 }
 .b3{
     margin: 8px 0px;
+}
+
+.main8{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 165px;
+    gap: 30px;
+}
+.img56{
+    width: 350px;
+    height: 270px;
+    margin-bottom: 16px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+.uk2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.bn50{
+    font-size:18px ;
+    color: grey;
+}
+.small3{
+    width:350px;
+}
+.f56{
+    margin-bottom: 16px;
+}
+.bn4{
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/image_2.jpg.webp);
+}
+.bn5{
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/image_3.jpg.webp);
+}
+.bn6 {
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/image_1.jpg.webp);
+  }
+.uk2:hover{
+    color:rgb(249,170,48);
+}
+.kv567{
+    background-color:rgb(249,170,48);
+    width:130px;
+    border-top-right-radius: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 70px;
+    align-items: center;
+    padding: 5px 10px;
+    margin-top: 200px;
+}
+.day{
+    font-size: 40px;
+    color: white;
+}
+.year{
+    font-size: 13px;
+    color: white;
+}
+.mon{
+    font-size: 13px;
+    color: white;
+}
+.right4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+.day2{
+    margin-bottom: 20px;
+}
+  
+
+.img10 {
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/person_2.jpg.webp);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.item {
+    width: 290px;
+    height: 312px;
+}
+
+.tt1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tt2 {
+    margin-left: 50px;
+}
+
+.owl-carousel {
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/bg_3.jpg.webp);
+    background-size: cover;
+    width: 1033px;
+    height: 701px;
+}
+
+.img11 {
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/person_1.jpg.webp);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.img12 {
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/person_3.jpg.webp);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
 }
