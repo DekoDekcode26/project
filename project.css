@@ -10,7 +10,6 @@ body{
     height: 91.2px;
     width: 160.92px;
     padding: 24px;
-    /* margin: 0px 16px 0px 10px; */
     display: flex;
     justify-content: center;
 }
@@ -35,7 +34,7 @@ body{
     font-size: 26px;
 }
 .sp{
-font-size: 12px;
+    font-size: 12px;
     font-weight: 600;
     color: rgba(255, 255, 255, 0.9);
     display: block;
@@ -142,17 +141,31 @@ font-size: 12px;
     font-weight: 300;
     margin-top:-35px;
 }
+
+
+
 .book{
     background-color:rgb(51,49,59);
     position: relative;
     display: flex;
+    margin: 103px 165px 0 165px;
+    flex-wrap: wrap;
+    gap: 50px;
     justify-content: center;
-    margin: 100px 165px 0 165px;
-    padding: 25px;
+    padding: 24px;
+}
+.elemeni{
+    display: flex;
+    flex-direction: column;
 }
 .d23{
-    color: rgb(214,214,216);
-    font-size: 18px;
+    color: white;
+    font-size:18px ;
+    color: rgb(255, 254, 254);
+}
+.d24{
+    background-color: transparent;
+    border: none;
 }
 .yey{
     padding: 20px 65px;
@@ -162,6 +175,7 @@ font-size: 12px;
     color: white;
     font-size: 18px;
 }
+
 
 
 .nimag{
@@ -648,8 +662,27 @@ gap: 30px;
     .book{
         display: flex;
         flex-direction: column;
+        gap: 15px;
     }
     .dvf{
         margin-bottom: 10px;
+    }
+    .main4{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .small{
+        width: 120px;
+    }
+    .sma23{
+        display: flex;
+        justify-content: center;
+    }
+    .n{
+        width: 190px;
+    }
+    .img{
+        width: 190px;
     }
 }
