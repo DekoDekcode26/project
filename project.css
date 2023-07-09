@@ -1,9 +1,16 @@
+body{
+    font-family: 'Poppins';
+}
+.navbar{
+    position: fixed;
+    top: 0px;
+}
 .brend{
     background-color: rgb(51,49,59);
     height: 91.2px;
     width: 160.92px;
     padding: 24px;
-    margin: 0px 16px 0px 16px;
+    /* margin: 0px 16px 0px 10px; */
     display: flex;
     justify-content: center;
 }
@@ -23,6 +30,9 @@
     padding: 0 1em;
     line-height: 1.2;
     text-align: center;
+}
+.sp1{
+    font-size: 26px;
 }
 .sp{
 font-size: 12px;
@@ -79,8 +89,12 @@ font-size: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: aliceblue;
+}
+.icon1{
     font-size: 12px;
+    color: white;
+    width: 10px;
+    height: 10px;
 }
 @keyframes animate{
     0%{
@@ -133,26 +147,35 @@ font-size: 12px;
     position: relative;
     display: flex;
     justify-content: center;
-    margin-top: 105px;
+    margin: 100px 165px 0 165px;
+    padding: 25px;
+}
+.d23{
+    color: rgb(214,214,216);
+    font-size: 18px;
 }
 .yey{
     padding: 20px 65px;
     border: none;
     background-color: rgb(249,170,48);
     border-radius: 40px;
-    margin: 25px;
     color: white;
+    font-size: 18px;
 }
 
 
 .nimag{
     width: 60px;
     height: 60px;
+    margin-bottom: 15px;
 }
 .timg{
     width: 60px;
     height: 60px;
     
+}
+.asmall{
+    font-size: 16px;
 }
 .left-top {
   width: 50%;
@@ -162,7 +185,6 @@ font-size: 12px;
   font-size: 16px;
   color: gray;
 }
-
 .left-right {
   width: 50%;
   height: 50%;
@@ -171,7 +193,6 @@ font-size: 12px;
   font-size: 16px;
   color: gray;
 }
-
 .left-bottom {
   width: 50%;
   height: 50%;
@@ -180,7 +201,6 @@ font-size: 12px;
   font-size: 16px;
   color: gray;
 }
-
 .left-bottom-right {
   width: 50%;
   height: 50%;
@@ -189,47 +209,38 @@ font-size: 12px;
   font-size: 16px;
   color: gray;
 }
-
 .main3 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding:140px 165px;
+  padding:112px 165px;
   background-color:rgb(249,250,251);
 
 }
-
 .left {
   display: flex;
   width: 50%;
   height: 50%;
   flex-wrap: wrap;
 }
-
 .right {
   width: 50%;
   height: 50%;
   padding: 0px 15px 0px 48px;
 }
-
-h3,
-h1 {
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.p {
+.p5{
   margin: 0px 0px 24px;
-  font-size: 40px;
+  font-size: 45px;
   color: black;
+  font-weight: 600;
 }
 
-.l {
+.l{
   font-size: 16px;
   color: gray;
   margin: 0px 0px 16px;
 }
-.z {
+.z{
     border-radius: 50px;
     width: 200px;
     height: 60px;
@@ -237,66 +248,96 @@ h1 {
     border: none;
     color: white;
   }
-  .t {
-    display: flex;
-    justify-content: center;
-    font-size: 40px;
-    color: black;
-  }
 
-  .main5 {
-    width: 1033px;
-    height: 1258px;
+
+.t{
+ font-size: 40px;
+ color: black;
+ text-align: center;
+ margin-bottom: 48px;
+  }
+.main5 {
+  display: flex;
+  justify-content: center;
+  margin:0 165px;
+  margin-bottom: 140px;
+}
+.secbot{
+    padding:24px;
+}
+.sma23{
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+}
+.text{
+    font-size: 12px;
+    color: gray;
+}
+.text1{
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: -8px !important;
+}
+.text2{
+    color: gray;
+}
+.number{
+    list-style-type: none;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    margin:0 165px;
-    gap: 30px;
-
-  }
-  
-  .img1 {
+    gap: 10px;
+}
+.clue{
+    font-size: 12px;
+    color:  orange;
+    align-self: center;
+}
+.img1 {
     background-image: url(https://preview.colorlib.com/theme/vacation/images/destination-1.jpg.webp);
-  }
-  
-  .img{
-    width: 300px;
-    height: 270px;
-    background-position: center;
-    background-size: cover;
-  }
-  
-  .img2 {
-    background-image: url(https://preview.colorlib.com/theme/vacation/images/destination-2.jpg.webp);
-  }
-  
-  .img3 {
-    background-image: url(https://preview.colorlib.com/theme/vacation/images/destination-3.jpg.webp);
-  }
-  
-  .img4 {
-    background-image: url(https://preview.colorlib.com/theme/vacation/images/destination-4.jpg.webp);
-  }
-  
-  .img5 {
-    background-image: url(https://preview.colorlib.com/theme/vacation/images/destination-5.jpg.webp);
-  }
-  
-  .img6 {
-    background-image: url(https://preview.colorlib.com/theme/vacation/images/destination-6.jpg.webp);
-  }
-  .butt {
-    border: none;
-    border-radius: 50px;
-    background-color: orange;
-    margin-left: 80px;
-  }
-  
-  .n {
-    box-sizing: border-box;
-    border: solid 0.2px gray;
-  }
+}
+.img{
+  width: 349px;
+  height: 270px;
+  background-position: center;
+  background-size: cover;
+}
 
+.img2 {
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/destination-2.jpg.webp);
+}
+
+.img3 {
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/destination-3.jpg.webp);
+}
+
+.img4 {
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/destination-4.jpg.webp);
+}
+
+.img5 {
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/destination-5.jpg.webp);
+}
+
+.img6 {
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/destination-6.jpg.webp);
+}
+.butt {
+  border: none;
+  border-radius: 50px;
+  background-color: orange;
+  color: aliceblue;
+  padding:8px;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+  margin-top: -43px;
+}
+.n {
+  box-sizing: border-box;
+  border: solid 0.2px rgb(202, 198, 198);
+  height: 490px;
+}
 
 .main2{
     display: flex;
@@ -392,6 +433,8 @@ h1 {
 }
 .b1:hover{
     background-color: rgb(249,170,48);
+    padding-right: 20px;
+    margin-right: 20px;
 }
 
 .cont{
@@ -431,8 +474,16 @@ h1 {
 .main8{
     display: flex;
     flex-wrap: wrap;
-    margin: 165px;
+    margin: 0 165px 140px 165px ;
     gap: 30px;
+}
+.tjk{
+    font-size: 45px;
+    color: black;
+    text-align: center;
+    margin-top: 112px;
+    font-weight: 600;
+    margin-bottom: 50px;
 }
 .img56{
     width: 350px;
@@ -511,8 +562,10 @@ h1 {
 }
 
 .item {
-    width: 290px;
-    height: 312px;
+    width: 350px;
+    height: 270px;
+    background-color: white;
+    border-radius: 5px;
 }
 
 .tt1 {
@@ -521,16 +574,30 @@ h1 {
 }
 
 .tt2 {
-    margin-left: 50px;
+    margin-left:15px;
 }
 
-.owl-carousel {
+.main16{
     background-image: url(https://preview.colorlib.com/theme/vacation/images/bg_3.jpg.webp);
     background-size: cover;
+    width: 100%;
+    height: 701px;
+    padding: 112px 0;
+    background-position: center;
+}
+.owl-carousel {
     width: 1033px;
     height: 701px;
+    padding: 0 165px;
 }
-
+.vsdg{
+    font-size: 40px;
+    color: black;
+    display: table;
+    margin: auto;
+    margin-bottom: 64px;
+    font-weight: 600;
+}
 .img11 {
     background-image: url(https://preview.colorlib.com/theme/vacation/images/person_1.jpg.webp);
     background-size: cover;
@@ -538,11 +605,51 @@ h1 {
     height: 80px;
     border-radius: 50%;
 }
-
+.ghe23{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.ghe237{
+    color: rgb(175, 169, 169);
+}
+.ed2{
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 50px;
+}
 .img12 {
     background-image: url(https://preview.colorlib.com/theme/vacation/images/person_3.jpg.webp);
     background-size: cover;
     width: 80px;
     height: 80px;
     border-radius: 50%;
+}
+.item{
+    padding:24px 20px;
+}
+.act{
+    font-size: 18px;
+    color: black;
+}
+.sas{
+    font-size: 18px;
+    align-self: center;
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 989px){
+    .navbar{
+        background-color: black;
+    }
+    .navbar-toggler{
+        border: none !important;
+    }
+    .book{
+        display: flex;
+        flex-direction: column;
+    }
+    .dvf{
+        margin-bottom: 10px;
+    }
 }

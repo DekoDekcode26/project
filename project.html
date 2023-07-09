@@ -8,20 +8,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
     integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
     integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 <body>
     <div class="main">
         <div class="over"></div>
     <nav class="navbar navbar-expand-lg navbar-dark p-0">
-        <div class="container">
-          <div class="brend"><a class="navbar-brand p-0 m-0" href="#">Vacation<span class="sp" >TRAVEL AGENCY</span></a></div>
+        <div class="container p-0">
+          <div class="brend"><a class="navbar-brand p-0 m-0" href="#"><span class="sp1" >Vacation</span><span class="sp" >TRAVEL AGENCY</span></a></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span><span class="sas">MENU</span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
@@ -44,7 +45,7 @@
             <button type="button" class="btn btn-light"><span class="an">Book Now</span></button>
             <div class="mid">
               <a href=""><div class="center">
-                <div class="pulse"><i class="icon fa-solid fa-play"></i></div>
+                <div class="pulse"><i class="icon1 fa-solid fa-play"></i></div>
               </div></a>
             </div>
           </div>
@@ -55,28 +56,47 @@
       <div class="kur"><p class="x3">With Us</p></div>
       <div class="book">
         <div class="inp">
-          <label for="">search</label>
-          <input type="text" placeholder="Search place">
+          <div class="dvf">
+          <label class="d23" for="">Destination</label>
+        </div>
+          <input class="d24" type="text" placeholder="Search place">
         </div>
         <div class="inp">
-          <label for="">Check-in date</label>
-          <input type="text" placeholder="Check In Date">
+          <div class="dvf">
+          <label class="d23" for="">Check-in date</label>
+        </div>
+          <input class="d24" type="text" placeholder="Check In Date">
         </div>
         <div class="inp">
-          <label for="">chack-out date</label>
-          <input type="text" placeholder="Check Out Date">
+          <div class="dvf">
+          <label class="d23" for="">Chack-out date</label>
+        </div>
+          <input class="d24" type="text" placeholder="Check Out Date">
         </div>
         <div class="inp">
-          <label for="">Price limit</label>
+          <!-- <div class="dvf"></div> -->
+          <label class="d23" for="">Price limit</label>
+        </div>
           <select name="" id="">
-            <oprion></oprion>
-            <oprion></oprion>
-            <oprion></oprion>
-            <oprion></oprion>
-            <oprion></oprion>
+            <option>$5,000</option>
+            <option>$10,000</option>
+            <option>$50,000</option>
+            <option>$100,000</option>
+            <option>$200,000</option>
+            <option>$300,000</option>
+            <option>$400,000</option>
+            <option>$500,000</option>
+            <option>$600,000</option>
+            <option>$700,000</option>
+            <option>$800,000</option>
+            <option>$900,000</option>
+            <option>$1,000,000</option>
+            <option>$2,000,000</option>
           </select>
         </div>
+        <div>
         <button class="yey">Search</button>
+      </div>
       </div>
     </div>
 
@@ -87,7 +107,7 @@
             <img class="timg" src="https://cdn.discordapp.com/attachments/1123327710492622942/1125386750882238524/image.png" alt="">
           </div>
           <div>
-            <h3>Activities</h3>
+            <h3 class="act">Activities</h3>
             <p>A small river named Duden flows by their place and supplies it with the necessary</p>
           </div>
         </div>
@@ -95,26 +115,26 @@
           <div class="nimag">
             <img class="timg" src="https://cdn.discordapp.com/attachments/1123327710492622942/1125388384987250758/image.png" alt="">
           </div>
-          <h1>Travel Arrangements</h1>
-          <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+          <h1 class="act">Travel Arrangements</h1>
+          <p class="asmall">A small river named Duden flows by their place and supplies it with the necessary</p>
         </div>
         <div class="left-bottom">
           <div class="nimag">
             <img class="timg" src="https://cdn.discordapp.com/attachments/1123327710492622942/1125389397303504916/image.png" alt="">
           </div>
-          <h1>Private Guide</h1>
-          <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+          <h1 class="act">Private Guide</h1>
+          <p class="asmall">A small river named Duden flows by their place and supplies it with the necessary</p>
         </div>
         <div class="left-bottom-right">
           <div class="nimag">
             <img class="timg" src="https://cdn.discordapp.com/attachments/1123327710492622942/1125390394708983838/image.png" alt="">
           </div>
-          <h1>Location Manager</h1>
-          <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+          <h1 class="act">Location Manager</h1>
+          <p class="asmall">A small river named Duden flows by their place and supplies it with the necessary</p>
         </div>
       </div>
       <div class="right">
-        <h1 class="p">It's time to start your adventure</h1>
+        <h1 class="p5">It's time to start your adventure</h1>
         <p class="l">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a
           paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
         <p class="l"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
@@ -178,155 +198,188 @@
 
       <h2 class="t">Tour Destination</h2>
       <div class="main5">
+        <div class="sma23">
         <div class="n">
           <div class="img img1"></div>
+          <div class="secbot">
           <button class="butt"> $300/person </button>
           <p class="text">8 Days Tour</p>
           <p class="text1">Bali, Indonesia</p>
           <p class="text2">Bali, Indonesia</p>
           <ul class="number">
+            <i class="fa-solid fa-bath clue"></i>
             <li class="number1">2</li>
+            <i class="fa-solid fa-bed clue"></i>
             <li class="number2">3</li>
-            <li class="location">Near Mountains</li>
+            <i class="fa-solid fa-mountain-sun clue"></i>
+            <li class="location">Near Beach</li>
           </ul>
+        </div>
         </div>
         <div class="n">
           <div class="img img2"></div>
+          <div class="secbot">
           <button class="butt"> $300/person </button>
           <p class="text">8 Days Tour</p>
           <p class="text1">Bali, Indonesia</p>
           <p class="text2">Bali, Indonesia</p>
           <ul class="number">
+            <i class="fa-solid fa-bath clue"></i>
             <li class="number1">2</li>
+            <i class="fa-solid fa-bed clue"></i>
             <li class="number2">3</li>
-            <li class="location">Near Mountains</li>
+            <i class="fa-solid fa-mountain-sun clue"></i>
+            <li class="location">Near Beach</li>
           </ul>
+        </div>
         </div>
         <div class="n">
           <div class="img img3"></div>
+          <div class="secbot">
           <button class="butt"> $300/person </button>
           <p class="text">8 Days Tour</p>
           <p class="text1">Bali, Indonesia</p>
           <p class="text2">Bali, Indonesia</p>
           <ul class="number">
+            <i class="fa-solid fa-bath clue"></i>
             <li class="number1">2</li>
+            <i class="fa-solid fa-bed clue"></i>
             <li class="number2">3</li>
-            <li class="location">Near Mountains</li>
+            <i class="fa-solid fa-mountain-sun clue"></i>
+            <li class="location">Near Beach</li>
           </ul>
+        </div>
         </div>
         <div class="n">
           <div class="img img4"></div>
+          <div class="secbot">
           <button class="butt"> $300/person </button>
           <p class="text">8 Days Tour</p>
           <p class="text1">Bali, Indonesia</p>
           <p class="text2">Bali, Indonesia</p>
           <ul class="number">
+            <i class="fa-solid fa-bath clue"></i>
             <li class="number1">2</li>
+            <i class="fa-solid fa-bed clue"></i>
             <li class="number2">3</li>
-            <li class="location">Near Mountains</li>
+            <i class="fa-solid fa-mountain-sun clue"></i>
+            <li class="location">Near Beach</li>
           </ul>
+        </div>
         </div>
         <div class="n">
           <div class="img img5"></div>
+          <div class="secbot">
           <button class="butt"> $300/person </button>
           <p class="text">8 Days Tour</p>
           <p class="text1">Bali, Indonesia</p>
           <p class="text2">Bali, Indonesia</p>
           <ul class="number">
+            <i class="fa-solid fa-bath clue"></i>
             <li class="number1">2</li>
+            <i class="fa-solid fa-bed clue"></i>
             <li class="number2">3</li>
-            <li class="location">Near Mountains</li>
+            <i class="fa-solid fa-mountain-sun clue"></i>
+            <li class="location">Near Beach</li>
           </ul>
         </div>
+        </div>  
         <div class="n">
           <div class="img img6"></div>
+          <div class="secbot">
           <button class="butt"> $300/person </button>
           <p class="text">8 Days Tour</p>
           <p class="text1">Bali, Indonesia</p>
           <p class="text2">Bali, Indonesia</p>
           <ul class="number">
+            <i class="fa-solid fa-bath clue"></i>
             <li class="number1">2</li>
+            <i class="fa-solid fa-bed clue"></i>
             <li class="number2">3</li>
-            <li class="location">Near Mountains</li>
+            <i class="fa-solid fa-mountain-sun clue"></i>
+            <li class="location">Near Beach</li>
           </ul>
         </div>
+       </div>
       </div>
-
+      </div>
+      <div class="main16">
+        <span class="vsdg">Tourist Feedback</span>
       <div class="owl-carousel owl-theme">
         <div class="item">
-            <h4> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </h4>
+            <h4 class="ed2">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </h4>
             <div class="tt1">
                 <div class="img10"></div>
                 <div class="tt2">
-                    <p>Roger Scott</p>
-                    <p>Marketing Manager</p>
+                    <p class="ghe23">Roger Scott</p>
+                    <p class="ghe237">Marketing Manager</p>
                 </div>
             </div>
         </div>
         <div class="item">
-            <h4> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </h4>
+            <h4 class="ed2"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </h4>
             <div class="tt1">
                 <div class="img11"></div>
                 <div class="tt2">
-                    <p>Roger Scott</p>
-                    <p>Marketing Manager</p>
+                    <p class="ghe23">Roger Scott</p>
+                    <p class="ghe237">Marketing Manager</p>
                 </div>
             </div>
         </div>
-  
         <div class="item">
-            <h4> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </h4>
+            <h4 class="ed2"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </h4>
             <div class="tt1">
                 <div class="img12"></div>
                 <div class="tt2">
-                    <p>Roger Scott</p>
-                    <p>Marketing Manager</p>
+                    <p class="ghe23">Roger Scott</p>
+                    <p class="ghe237">Marketing Manager</p>
                 </div>
             </div>
         </div>
         <div class="item">
-            <h4> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </h4>
+            <h4 class="ed2"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </h4>
             <div class="tt1">
                 <div class="img10"></div>
                 <div class="tt2">
-                    <p>Roger Scott</p>
-                    <p>Marketing Manager</p>
+                    <p class="ghe23">Roger Scott</p>
+                    <p class="ghe237">Marketing Manager</p>
                 </div>
             </div>
         </div>
         <div class="item">
-            <h4> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </h4>
+            <h4 class="ed2"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </h4>
             <div class="tt1">
                 <div class="img11"></div>
                 <div class="tt2">
-                    <p>Roger Scott</p>
-                    <p>Marketing Manager</p>
+                    <p class="ghe23">Roger Scott</p>
+                    <p class="ghe237">Marketing Manager</p>
                 </div>
             </div>
         </div>
         <div class="item">
-            <h4> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </h4>
+            <h4 class="ed2"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </h4>
             <div class="tt1">
                 <div class="img12"></div>
                 <div class="tt2">
-                    <p>Roger Scott</p>
-                    <p>Marketing Manager</p>
+                    <p class="ghe23">Roger Scott</p>
+                    <p class="ghe237">Marketing Manager</p>
                 </div>
             </div>
         </div>
         <div class="item">
-            <h4> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </h4>
+            <h4 class="ed2"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </h4>
             <div class="tt1">
                 <div class="img10"></div>
                 <div class="tt2">
-                    <p>Roger Scott</p>
-                    <p>Marketing Manager</p>
+                    <p class="ghe23">Roger Scott</p>
+                    <p class="ghe237">Marketing Manager</p>
                 </div>
             </div>
         </div>
     </div>
+  </div>
 
-    <h3 class="t"> Recent Post </h3>
+    <h3 class="tjk"> Recent Post </h3>
     <div class="main8">
       <div class="small3">
         <div class="img56 bn4">
@@ -420,6 +473,8 @@
           </div>
         </div>
       </div>
+
+      
       
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
@@ -442,7 +497,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             items:3
         },
         1000:{
-            items:5
+            items:3
         }
     }
 })
